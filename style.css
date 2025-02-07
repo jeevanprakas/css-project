@@ -13,26 +13,7 @@ button a{
     text-decoration: none;
     color:black;
 }
- @media screen and (max-width:500px){
-        .header{
-            display:flex;
-            flex-direction: column;
-       
-    
-        
-            background-color: black;
-        } 
-        
-    }
-
-@media screen and (max-width: 480px), screen and (max-width:500px) {
-    .header {
-        display: flex;
-        flex-direction: column -1;
-        background-color: black;
-    }
-} 
-
+ 
 .maincontainer img{
     object-fit: cover;
     position: relative;
@@ -107,24 +88,7 @@ button a{
     margin-left: 100px;
 }
 
-/* 
-@media screen and (max-width: 480px){
-    .header {
-        display: flex;
-        flex-direction: column;
-    
-    
-        background-color: black;
-    }
-    
-    }    */
-    @media screen and (max-width: 480px), screen and (max-width: 500px) {
-        .header {
-            display: flex;
-            flex-direction: column -1;
-            background-color: black;
-        }
-    }
+
     
 .header2 a {
     text-decoration: none;
@@ -165,8 +129,8 @@ img {
     height: 300px;
     border: #ffffff;
     gap: 10px;
-    display:grid;
-    margin: 0%;
+    
+    margin: 0;
 
 
 }
@@ -175,22 +139,22 @@ img {
     width: 300px;
     height: 300px;
     gap: 10px;
-    display: grid;
-    margin: 0%;
+    
+    margin: 0;
 }
 
 .item-3 {
     width: 300px;
     height: 300px;
     gap: 10px;
-    margin: 0%;
+    margin: 0;
 }
 
 .item-4 {
     width: 300px;
     height: 300px;
     gap: 10px;
-    margin: 0%;
+    margin: 0;
 
 }
 
@@ -199,7 +163,7 @@ img {
     height: 300px;
     gap: 10px;
     padding: 20px;
-    margin: 0%;
+    margin: 0;
 
 }
 
@@ -207,42 +171,25 @@ img {
     width: 300px;
     height: 300px;
     gap: 10px;
-    margin: 0%;
+    margin: 0;
 
 }
-/* 
-@media screen and (max-width: 480px){
-    .header {
-        display: flex;
-        flex-direction: column;
-    
-    
-        background-color: black;
-    }
-    
-    }    */ 
-    @media screen and (max-width: 480px), screen and (max-width: 500px) {
-        .header {
-            display: flex;
-            flex-direction: column -1;
-            background-color: black;
-        }
-    }
-    
+
+
 
 .bigcontainer {
-    display: flex;
-    height: 210%;
-    width: 210%;
-    padding: 10px;
-    height: 100%;
+    
+    height:800px ;
     width: 100%;
+    
+    
+    
     padding: 40px;
     display: grid;
-    flex-wrap: nowrap;
+    
     gap: 20px;
-    text-align: center;
-    grid-template-columns: repeat(3 3fr);
+    
+    grid-template-columns: repeat(3 ,1fr);
     grid-template-areas:
         'a b c'
         'd e f';
@@ -250,17 +197,15 @@ img {
 }
 
 .portfolio {
-    height: 50vh;
+    height: 300px;
     width: 100%;
     padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+     justify-content: space-around;
     display: grid;
-    grid-template-columns: repeat(3 3fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
         'a b c'
-        'd e f';
+        ;
     
 
 }
@@ -271,12 +216,24 @@ img {
     gap: 5px;
     grid-area: a;
 }
+.port1img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+
+}
 
 .port-2 {
     width: 300px;
     height: 300px;
     gap: 5px;
     grid-area: b;
+
+}
+.port2img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
 
 }
 
@@ -286,73 +243,74 @@ img {
     gap: 10px;
     grid-area: c;
 }
+.port3img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
 
 .portfolio-1{
-
-    height: 50vh;
-    width: 100%;
+     height: 300px;
+     width: 100%;
     padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    border-style: none;
-    flex-wrap: wrap;
     display: grid;
-    grid-template-columns: repeat(3 3fr);
+     justify-content: space-around;
+     grid-template-columns: repeat(3 ,1fr);
     grid-template-areas:
         'a b c'
-        'd e f';
-        text-decoration: none;
+        ;
+  
     
 }
-p{
-    width: 300px;
-}
 
-.port-4 img{
-    width: 300px;
+.port-4{
+    width:300px;
     height: 300px;
     gap: 5px;
     grid-area: a;
-    box-shadow: 2px 3px 5px ;
+    
 
 }
+.port4img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
 
-.port-5 img {
-    width: 300px;
+.port-5 {
+    width:300px ;
     height: 300px;
     gap: 5px;
     grid-area: b;
 
 }
+.port5img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
 
-.port-6 img {
+.port-6 {
     width: 300px;
     height: 300px;
     gap: 20px;
     grid-area: c;
 
 }
- /* @media screen and (max-width: 480px){
-    .header {
-        display:flex;
-        flex-direction:column1;
-    
-    
-        background-color: black;
-    }
-    
-    }   */
-    @media screen and (max-width: 480px), screen and (max-width: 500px) {
-        .header {
-            display: flex;
-            flex-direction: column;
-            background-color: black;
-            flex: direction column -1;
-        }
-    }
+.port6img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+ 
     
 
-
+#about{
+    margin-top: 50px;
+}
+.hhh{
+    margin-left: 10px;
+}
 
 .input {
     width: 50vw;
@@ -456,16 +414,47 @@ p{
     background-color: rgb(24, 20, 20);
     color: #ffffff;
 }
-@media screen and (max-width:500px), screen and (max-width:500px) {
-    .header {
-        display: flex;
-        flex-direction: column;
-        background-color: black;
-        flex: direction column -1;
-    }
-}
+
+
 
 .last-container a{
     text-decoration: none;
     color: whitesmoke;
+} 
+
+
+@media screen and (max-width : 400px){
+    .bigcontainer{
+        height: 1700px;
+        display:grid ;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        'a'
+        'b'
+        'c'
+        'd'
+        'e'
+        'f' ;
+    }
+    .portfolio{
+        height: 900px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        'a'
+        'b'
+        'c'
+        ;
+    }
+    .portfolio-1{
+        height: 900px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'a'
+        'b'
+        'c';
+
+    }
+    
 }
